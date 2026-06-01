@@ -1,20 +1,20 @@
-#   تمیزکاری:
+  تمیزکاری:
 
-#  import pandas as pd
+ import pandas as pd
 
-#   خواندن فایل CSV
-#  df = pd.read_csv("customers.csv")
+  خواندن فایل CSV
+ df = pd.read_csv("customers.csv")
 
-#  print("قبل از تمیزکاری:")
-#  print(df)
+ print("قبل از تمیزکاری:")
+ print(df)
 
 
-#   تمیزکاری:
-#   حذف رکوردهای ناقص
-#  df = df.dropna()
+  تمیزکاری:
+  حذف رکوردهای ناقص
+ df = df.dropna()
 
-#   پاکسازی رشته‌ها
-#  df['name'] = df['name'].astype(str).str.strip()
+  پاکسازی رشته‌ها
+ df['name'] = df['name'].astype(str).str.strip()
 
 #  print("\nبعد از تمیزکاری:")
 #  print(df)
