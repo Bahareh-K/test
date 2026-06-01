@@ -1,0 +1,6 @@
+order_id,customer_name,city,amount
+1, Ali ,Berlin,100
+2,Sara,Düsseldorf,200
+3,,Hamburg,150
+4,ali,berlin,100
+5,John, ,300
